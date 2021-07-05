@@ -9,7 +9,7 @@ class Button extends Component {
     return (
       <button
         type="button"
-        onClick={ () => getImage() }
+        onClick={ getImage }
       >
         Find a cat!
       </button>
